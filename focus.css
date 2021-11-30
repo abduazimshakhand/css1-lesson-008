@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+.btn{
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.btn>svg{
+    width: 25px;
+    margin-right: 10px;
+    fill: #363853;
+    /* background-color: #8989ee;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.3s; */
+    
+}
+.btn:focus{
+    /* transition: 0.3s;
+    box-shadow: 0px 0px 0px 3px #b673b6; 
+    background-color: blueviolet; */
+    background: #ff7a50;
+    color: #fff;
+      
+
+}
+/* pseudo class */
+.btn>:focus{
+    fill: #fff;
+}
